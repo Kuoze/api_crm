@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Carles",
+      "empresa": "BIM",
+      "email": "carles@biminformatica.com",
+      "telefono": "658442410",
+      "notas": "Excelente trabajador",
+      "id": 1
+    },
+    {
+      "nombre": "Elisabet",
+      "empresa": "Cambra de Comerç",
+      "email": "elisabet.cruces@ccambra.com",
+      "telefono": "610330751",
+      "notas": "Fefi linda y siosi",
+      "id": 2
+    },
+    {
+      "nombre": "David",
+      "empresa": "Ricoh",
+      "email": "david@ricoh.com",
+      "telefono": "",
+      "notas": "Muy fiable",
+      "id": 3
+    },
+    {
+      "nombre": "Paulina",
+      "empresa": "Paulina Construcciones",
+      "email": "paulina@ccc.es",
+      "telefono": "658442418",
+      "notas": "Muy perra",
+      "id": 6
+    }
+  ]
+}
