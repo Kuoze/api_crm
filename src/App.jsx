@@ -6,6 +6,7 @@ import EditarCliente from './paginas/EditarCliente'
 import NuevoCliente from './paginas/NuevoCliente'
 
 function App() {
+  console.log(import.meta.env)
 
   return (
     <BrowserRouter>

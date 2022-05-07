@@ -23,14 +23,6 @@
       "telefono": "",
       "notas": "Muy fiable",
       "id": 3
-    },
-    {
-      "nombre": "Paulina",
-      "empresa": "Paulina Construcciones",
-      "email": "paulina@ccc.es",
-      "telefono": "658442418",
-      "notas": "Muy perra",
-      "id": 6
     }
   ]
 }

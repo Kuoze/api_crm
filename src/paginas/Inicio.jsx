@@ -9,7 +9,7 @@ const Inicio = () => {
     const obtenerClientesAPI = async () => {
 
       try {
-        const url = 'http://localhost:4000/clientes'
+        const url = import.meta.env.VITE_API_URL
         const response = await fetch(url)
         const result = await response.json()
         // Obtenemos lista de clientes
@@ -25,7 +25,7 @@ const Inicio = () => {
 
     const eliminarClienteAPI = async () => {
       try {
-        const url = `http://localhost:4000/clientes/${clienteId}`
+        const url = `${import.meta.env.VITE_API_URL}${clienteId}`
         const response = await fetch(url, {
           method: 'DELETE'         
         })
